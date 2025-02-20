@@ -42,7 +42,7 @@ async function getGraphClient() {
 
 async function performTask() {
     const client = await getGraphClient();
-    let lists = await client.api('/me/todo/lists')
+    let lists = await client.api(`/users/${config.myUserId}/todo/lists`)
         .get();
 
     console.log(lists);
