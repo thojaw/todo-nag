@@ -1,0 +1,20 @@
+{
+  "name": "todo-nag",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/thojaw/todo-nag.git",
+  "author": "Thomas Haid <thojaw@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "node index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@azure/msal-browser": "^4.4.0",
+    "@azure/msal-node": "^3.2.3",
+    "@microsoft/microsoft-graph-client": "^3.0.7",
+    "dotenv": "^16.4.7",
+    "node-cron": "^3.0.3"
+  }
+}
